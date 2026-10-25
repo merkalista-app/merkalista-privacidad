@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad · Merkalista</title>
+<meta name="description" content="Política de privacidad de Merkalista, la app de listas de compra, precios y gastos. Tus datos se guardan solo en tu dispositivo.">
+<style>
+  :root {
+    --fondo: #f4f7f5;
+    --tarjeta: #ffffff;
+    --texto: #10231b;
+    --suave: #4f6359;
+    --marca: #059669;
+    --marca-oscura: #047857;
+    --borde: #d9e3de;
+    --resalte: #e7f6ef;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fondo: #0b1f18;
+      --tarjeta: #12291f;
+      --texto: #e6f0eb;
+      --suave: #a3b8ad;
+      --marca: #34d399;
+      --marca-oscura: #6ee7b7;
+      --borde: #23443a;
+      --resalte: #163a2d;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--fondo);
+    color: var(--texto);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  header {
+    background: var(--marca);
+    color: #fff;
+    padding: 32px 16px 28px;
+  }
+  @media (prefers-color-scheme: dark) { header { background: #065f46; } }
+  .contenedor { max-width: 760px; margin: 0 auto; }
+  .marca { display: flex; align-items: center; gap: 14px; }
+  .logo {
+    width: 52px; height: 52px; border-radius: 14px; background: #fff;
+    display: grid; place-items: center; flex: none;
+  }
+  header h1 { margin: 0; font-size: 1.6rem; line-height: 1.2; }
+  header p { margin: 4px 0 0; opacity: .92; }
+  main { padding: 24px 16px 48px; }
+  section {
+    background: var(--tarjeta);
+    border: 1px solid var(--borde);
+    border-radius: 14px;
+    padding: 20px 20px 8px;
+    margin-bottom: 16px;
+  }
+  h2 { font-size: 1.15rem; margin: 0 0 10px; color: var(--marca-oscura); }
+  h3 { font-size: 1rem; margin: 16px 0 6px; }
+  p, ul { margin: 0 0 12px; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 4px; }
+  a { color: var(--marca-oscura); }
+  .resumen { background: var(--resalte); border-color: transparent; }
+  .resumen ul { list-style: none; padding-left: 0; }
+  .resumen li::before { content: "✓ "; color: var(--marca-oscura); font-weight: 700; }
+  .tabla { overflow-x: auto; margin-bottom: 12px; }
+  table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--borde); vertical-align: top; }
+  th { color: var(--suave); font-weight: 600; }
+  .meta { color: var(--suave); font-size: .92rem; }
+  footer { text-align: center; color: var(--suave); font-size: .92rem; padding: 0 16px 32px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="contenedor marca">
+    <div class="logo" aria-hidden="true">
+      <svg width="34" height="34" viewBox="0 0 100 100"><path d="M24 71V29l26 26 26-26v42" fill="none" stroke="#059669" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div>
+      <h1>Política de privacidad de Merkalista</h1>
+      <p>Tu compra, tus precios y tu gasto bajo control.</p>
+    </div>
+  </div>
+</header>
+
+<main class="contenedor">
+  <p class="meta">
+    Última actualización: 25 de octubre de 2026 · Versión de la app: 4.4.3<br>
+    Aplicación: Merkalista para Android (<code>com.ibaiasensio.merkalista</code>)<br>
+    Responsable: Ibai Asensio, desarrollador de Merkalista · Contacto: <a href="mailto:merkalista.app@gmail.com">merkalista.app@gmail.com</a>
+  </p>
+
+  <section class="resumen">
+    <h2>En resumen</h2>
+    <ul>
+      <li>Tus listas, productos, precios y gastos se guardan <strong>solo en tu dispositivo</strong>.</li>
+      <li>No hay cuentas de usuario, inicio de sesión, servidores propios ni sincronización en la nube.</li>
+      <li>No hay publicidad, analítica, seguimiento ni compras dentro de la app.</li>
+      <li>No vendemos ni compartimos tus datos con nadie.</li>
+      <li>La app no pide tu ubicación GPS, tus contactos ni tus fotos. La <strong>cámara</strong> solo se usa, con tu permiso, para leer códigos de barras: las imágenes no se guardan ni se envían.</li>
+      <li>Los tickets PDF se leen en tu móvil y nunca se envían a ningún servidor.</li>
+      <li>Solo se conecta a Internet cuando tú buscas un precio, para leer páginas públicas de algunos supermercados.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>1. Qué es Merkalista</h2>
+    <p>Merkalista es una aplicación independiente para crear listas de la compra, anotar productos con su cantidad, precio, tienda y categoría, consultar precios, importar tickets de compra en PDF, llevar el control del gasto mensual y exportarlo a CSV.</p>
+    <p>Merkalista <strong>no está afiliada, patrocinada ni respaldada por ningún supermercado</strong>. Los nombres de los supermercados se usan solo para indicar de dónde procede un precio.</p>
+  </section>
+
+  <section>
+    <h2>2. Qué datos guarda la app</h2>
+    <p>Todos estos datos los introduces tú (o salen de un ticket que tú importas) y se guardan en el almacenamiento privado de la app en tu dispositivo (una base de datos SQLite y las preferencias de Android). Ninguno se envía a un servidor de Merkalista, porque Merkalista no tiene servidores.</p>
+    <div class="tabla">
+      <table>
+        <thead><tr><th>Datos</th><th>Para qué se usan</th></tr></thead>
+        <tbody>
+          <tr><td>Listas de la compra y productos: nombre, cantidad, unidad, precio, tienda, categoría y si está comprado</td><td>Organizar tu compra y calcular totales</td></tr>
+          <tr><td>Gastos: producto, fecha, importe, tienda y categoría</td><td>Calcular tu gasto mensual y las estadísticas</td></tr>
+          <tr><td>Precios guardados e historial de precios: producto, tienda, precio, fecha, enlace y origen</td><td>Ver cómo cambian los precios</td></tr>
+          <tr><td>Categorías propias y sus colores</td><td>Clasificar productos y gastos</td></tr>
+          <tr><td>Tickets importados: nombre del archivo, huella SHA-256 del PDF, tienda, fecha, número de ticket, total y los productos que confirmas</td><td>Crear listas desde tickets y evitar duplicar precios</td></tr>
+          <tr><td>Ubicación opcional que escribes a mano: código postal, provincia, localidad y tienda habitual</td><td>Recordarte tu código postal (en un aviso) al abrir la web de un supermercado. <strong>Nunca se envía a ninguna web</strong> ni se copia al portapapeles, y la app no usa el GPS</td></tr>
+          <tr><td>Preferencias: tema claro u oscuro, supermercados incluidos en la búsqueda, última versión vista</td><td>Recordar tus ajustes</td></tr>
+          <tr><td>Copia local de los catálogos públicos y de las búsquedas recientes</td><td>Que las búsquedas sean más rápidas y hagan menos peticiones a las webs</td></tr>
+          <tr><td>Registro técnico de errores (sin tus búsquedas, productos, rutas ni contenido de tickets)</td><td>Diagnosticar fallos de la app; se queda en el dispositivo, no se envía a nadie y puedes borrarlo</td></tr>
+          <tr><td>Productos escaneados: código de barras, nombre, marca, cantidad, precio, tienda, categoría, favorito, fechas de último escaneo y de última compra e historial de precios</td><td>Reconocer el producto en los próximos escaneos sin duplicarlo; se borran en Ajustes → Escáner → Borrar historial de escaneos</td></tr>
+          <tr><td>Archivos temporales: el CSV que compartes, las páginas de un ticket durante el OCR y la copia que hace el selector de archivos</td><td>Solo mientras hacen falta, en la caché privada de la app; se borran después, al abrir la app y al borrar todos los datos</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>La app no guarda una copia de los PDF de tus tickets. Cuando eliges un PDF, Android crea una copia temporal dentro de la app, que se borra en cuanto se lee.</p>
+  </section>
+
+  <section>
+    <h2>3. Qué se envía a Internet</h2>
+    <p>Merkalista solo necesita Internet para la <strong>búsqueda de precios</strong>, y solo cuando tú pulsas «Buscar». Todas las conexiones son <strong>HTTPS</strong> y <strong>solo con las webs oficiales de los supermercados</strong>: cualquier otra dirección (o una redirección a otra web) se rechaza. Funciona así:</p>
+    <h3>Consulta automática (algunas tiendas)</h3>
+    <ul>
+      <li>La app descarga <strong>páginas públicas</strong> de algunos supermercados: catálogos públicos de productos (sitemaps), fichas públicas de producto y, en Alcampo, la página pública de su buscador.</li>
+      <li>Esas webs reciben lo mismo que cuando las visitas con un navegador: la petición, tu <strong>dirección IP</strong> y un identificador de la app («Merkalista»). Cuando se usa el buscador de Alcampo, también reciben <strong>el nombre del producto que buscas</strong>. Al pedir la ficha de un producto concreto (Lidl, Aldi), esa web puede deducir qué producto te interesa, igual que si la abrieras tú.</li>
+      <li>No se envía tu nombre, tu ubicación, tus listas, tus gastos ni ningún identificador personal.</li>
+      <li>La app consulta pocas páginas, con pausas entre peticiones y con caché. No intenta saltarse verificaciones anti-bots, CAPTCHAs ni inicios de sesión. Si una web lo pide, deja de consultarla automáticamente.</li>
+    </ul>
+    <h3>Búsqueda guiada (resto de tiendas)</h3>
+    <ul>
+      <li>Para las tiendas que no permiten la consulta automática, la app abre su <strong>buscador oficial en tu navegador</strong> con el nombre del producto. A partir de ahí navegas tú en esa web, con su propia política de privacidad y cookies.</li>
+      <li>Tú copias o escribes el precio y la app guarda en tu dispositivo el precio, la tienda, la fecha y el enlace.</li>
+    </ul>
+    <p>Las webs de los supermercados son de sus propietarios y tienen sus propias políticas de privacidad, que te recomendamos consultar.</p>
+  </section>
+
+  <section>
+    <h2>4. Servicios de terceros</h2>
+    <h3>Google ML Kit: reconocimiento de texto (OCR)</h3>
+    <ul>
+      <li>Solo se usa si importas un ticket escaneado (un PDF que es una imagen) y <strong>siempre después de pedirte permiso</strong>.</li>
+      <li>El modelo va incluido en la app y el reconocimiento se hace en tu móvil: las imágenes del ticket y el texto reconocido <strong>no salen del dispositivo</strong>.</li>
+      <li>Según la documentación de Google, la biblioteca ML Kit puede enviar a Google información técnica sobre su funcionamiento (por ejemplo, rendimiento, errores, versión de la biblioteca y datos del dispositivo) para mantener y mejorar el servicio. Nunca incluye el contenido de las imágenes ni el texto. Más información: <a href="https://developers.google.com/ml-kit/terms">condiciones de ML Kit</a> y <a href="https://developers.google.com/ml-kit/android-data-disclosure">datos que recopila ML Kit</a>.</li>
+    </ul>
+    <h3>Google ML Kit: lectura de códigos de barras</h3>
+    <p>La cámara solo se usa con el escáner abierto: la imagen se analiza en el móvil con Google ML Kit (modelo incluido en la app), no se guarda ninguna foto ni vídeo y no se envía a ningún servidor.</p>
+    <h3>Open Food Facts (opcional)</h3>
+    <p>Escáner de códigos de barras (opcional): si lo tienes activado en Ajustes → Escáner, al escanear un producto nuevo la app envía solo el número del código (por ejemplo, 8410000000000) a Open Food Facts (world.openfoodfacts.org), una base de datos pública y libre, para proponerte su nombre y su marca. No se envían imágenes, ubicación ni ningún otro dato; Open Food Facts recibe además tu dirección IP, como cualquier web. Puedes desactivarlo cuando quieras. Más información: <a href="https://world.openfoodfacts.org/privacy">privacidad de Open Food Facts</a>.</p>
+    <h3>Open Prices: precios de la comunidad (opcional)</h3>
+    <p>Precios de la comunidad (Open Prices, opcional): si lo tienes activado en Ajustes → Búsqueda de precios, al buscar un precio la app consulta Open Prices (prices.openfoodfacts.org), la base de datos pública y abierta de precios de Open Food Facts, para mostrarte precios que otras personas han compartido con fotos de tickets y etiquetas. Solo se envía el nombre de cada supermercado (por ejemplo, «Mercadona») para pedir los precios de sus tiendas en España del último año: lo que buscas no se envía, la coincidencia se hace en el móvil. Si escaneas un código de barras (o buscas uno), se envía ese número para pedir sus precios en España. No se envía ningún dato tuyo; Open Prices recibe además tu dirección IP, como cualquier web. Esos precios no son oficiales y se muestran con su fecha, ciudad y origen. Merkalista no sube precios a Open Prices. Más información: <a href="https://prices.openfoodfacts.org">Open Prices</a>.</p>
+    <h3>Nombres de los productos de los tickets</h3>
+    <p>Nombres de los productos de los tickets: al importar un ticket, Merkalista propone el nombre completo de cada producto («LECHE ENT HAC» → «Leche entera Hacendado») en el móvil, sin conexión, con un diccionario de abreviaturas, tus productos y los nombres que ya confirmaste. Lo que aceptas o corriges se guarda solo en el móvil (Ajustes → Nombres de tickets), donde puedes verlo, editarlo, exportarlo o borrarlo. Si pulsas «Buscar producto», puedes consultar Open Food Facts (se envía solo el texto que escribas o el código de barras que escanees) u Open Prices (solo el nombre de la tienda); el ticket nunca sale del móvil.</p>
+    <h3>PDFium (lectura de PDF)</h3>
+    <p>Los tickets se leen con PDFium, el motor de PDF de código abierto de Chrome, incluido en la app. Funciona sin conexión y no envía datos.</p>
+    <h3>Servicios de Android</h3>
+    <ul>
+      <li><strong>Selector de documentos:</strong> eliges los PDF y guardas los CSV con el selector del sistema; la app solo accede al archivo que tú eliges.</li>
+      <li><strong>Compartir:</strong> si compartes un CSV, se envía a la app que tú elijas.</li>
+      <li><strong>Copia de seguridad de Android:</strong> si la tienes activada en tu móvil, Android puede incluir la base de datos y los ajustes de Merkalista en tu copia de seguridad de Google, cifrada y asociada a tu cuenta. Lo controlas tú desde los ajustes de Android. Merkalista no tiene acceso a esa copia.</li>
+    </ul>
+    <p>Merkalista <strong>no usa</strong> servicios de publicidad, analítica, informes de errores en la nube, redes sociales ni inicio de sesión de terceros.</p>
+  </section>
+
+  <section>
+    <h2>5. Permisos</h2>
+    <ul>
+      <li><strong>Internet</strong>, para la búsqueda de precios y la consulta opcional de Open Food Facts, y <strong>estado de la red</strong>, que añaden las bibliotecas de Google para saber si hay conexión. Son permisos normales que Android concede sin preguntar.</li>
+      <li><strong>Cámara</strong>, solo para el escáner de códigos de barras: Android te la pide la primera vez que abres el escáner (nunca al arrancar la app) y puedes retirarla en los ajustes de Android. La cámara solo se usa con el escáner abierto: la imagen se analiza en el móvil con Google ML Kit (modelo incluido en la app), no se guarda ninguna foto ni vídeo y no se envía a ningún servidor.</li>
+      <li>No pide permisos de ubicación, micrófono, contactos, fotos ni almacenamiento.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. Cómo se protegen tus datos</h2>
+    <ul>
+      <li><strong>Almacenamiento privado:</strong> tus datos están en la carpeta privada de la app, a la que otras apps no pueden acceder, y Android los cifra en el dispositivo.</li>
+      <li><strong>Red:</strong> solo HTTPS con los certificados del sistema, sin tráfico sin cifrar y solo con las webs de los supermercados. Tiempos máximos de espera y pocos reintentos.</li>
+      <li><strong>Copia de seguridad de Android:</strong> si la tienes activada, solo incluye la base de datos y los ajustes. No incluye copias internas antiguas, temporales, catálogos ni el registro de errores. La copia en la nube de Google está cifrada con el bloqueo de pantalla de tu móvil, y puedes desactivarla en los ajustes de Android.</li>
+      <li><strong>Tickets PDF:</strong> se comprueban el tipo, el tamaño (20 MB como máximo), las páginas (se analizan 10 como máximo) y el tiempo de análisis (60 s); se procesan en memoria y no se guarda ninguna copia. Un PDF dañado, protegido o malformado se rechaza con un mensaje, sin cerrar la app.</li>
+      <li><strong>Registro de errores:</strong> solo datos técnicos (sin búsquedas, productos, rutas ni contenido de tickets), nunca en el log del sistema, y lo puedes borrar.</li>
+      <li><strong>Exportación CSV:</strong> solo se guarda donde tú eliges con el selector de Android, con protección frente a la inyección de fórmulas al abrirlo en Excel u otras hojas de cálculo.</li>
+      <li><strong>Pantalla:</strong> opción «Ocultar el contenido en apps recientes» (Ajustes → Privacidad y datos), que también impide las capturas de pantalla de la app.</li>
+      <li>Te recomendamos proteger tu móvil con bloqueo de pantalla.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>7. Cómo borrar tus datos</h2>
+    <ul>
+      <li><strong>Una lista, un producto, un gasto o una categoría:</strong> desde su pantalla, con la opción Eliminar.</li>
+      <li><strong>Un ticket importado:</strong> Ajustes → Tickets y precios. Puedes conservar sus precios o borrarlos también.</li>
+      <li><strong>Todos los tickets y la base de precios:</strong> Ajustes → Tickets y precios → Borrar todos los datos de tickets.</li>
+      <li><strong>Tu ubicación:</strong> Ajustes → Ubicación → Quitar ubicación.</li>
+      <li><strong>Todo:</strong> Ajustes → Privacidad y datos → <strong>Borrar todos los datos</strong> (con confirmación). Borra listas, productos, gastos, historial, precios guardados, tickets y base de precios, categorías y tiendas propias, ajustes y ubicación, registro de errores, catálogos, copias internas y archivos temporales.</li>
+      <li><strong>El registro de errores:</strong> Ajustes → Privacidad y datos → Borrar el registro de errores.</li>
+      <li><strong>Desinstalar la app</strong> borra todos sus datos del dispositivo. También puedes borrarlos desde Ajustes de Android → Aplicaciones → Merkalista → Almacenamiento → Borrar datos. Si tienes activada la copia de seguridad de Android, al reinstalar Merkalista Android puede restaurar esa copia; para evitarlo, borra antes los datos desde la app o desactiva la copia en los ajustes de Android.</li>
+    </ul>
+    <p>Como no tenemos tus datos en ningún servidor, no podemos verlos, recuperarlos ni borrarlos por ti: todo está en tu dispositivo y bajo tu control.</p>
+  </section>
+
+  <section>
+    <h2>8. Conservación</h2>
+    <p>Los datos se conservan en tu dispositivo hasta que los borras o desinstalas la app. Las búsquedas guardadas en caché caducan solas.</p>
+  </section>
+
+  <section>
+    <h2>9. Menores</h2>
+    <p>Merkalista es una app de uso general, no dirigida a menores de 13 años, y no recoge datos personales de ningún usuario en servidores.</p>
+  </section>
+
+  <section>
+    <h2>10. Tus derechos</h2>
+    <p>Como Merkalista no recoge ni guarda tus datos fuera de tu dispositivo, puedes consultarlos, corregirlos, exportarlos (a CSV) y borrarlos directamente desde la app. Si tienes cualquier duda o quieres ejercer tus derechos según el Reglamento General de Protección de Datos (RGPD), escríbenos. También puedes presentar una reclamación ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es">www.aepd.es</a>).</p>
+  </section>
+
+  <section>
+    <h2>11. Cambios en esta política</h2>
+    <p>Si una versión futura cambia cómo se tratan los datos (por ejemplo, si se añadiera sincronización en la nube), esta política se actualizará antes de publicar esa versión y la app lo indicará. La fecha de la última actualización figura al principio.</p>
+  </section>
+
+  <section>
+    <h2>12. Contacto</h2>
+    <p>Para cualquier pregunta sobre esta política o sobre tus datos: <a href="mailto:merkalista.app@gmail.com">merkalista.app@gmail.com</a></p>
+  </section>
+</main>
+
+<footer>Merkalista · Creado por Ibai Asensio</footer>
+</body>
+</html>
