@@ -89,7 +89,7 @@
 
 <main class="contenedor">
   <p class="meta">
-    <strong>Última actualización:</strong> 29 de octubre de 2026 · <strong>Versión de la app:</strong> 4.7.1 (beta)<br>
+    <strong>Última actualización:</strong> 10 de noviembre de 2026 · <strong>Versión de la app:</strong> 5.0.0<br>
     <strong>Aplicación:</strong> Merkalista para Android (<code>com.ibaiasensio.merkalista</code>)<br>
     <strong>Responsable:</strong> Ibai Asensio, desarrollador de Merkalista · <strong>Contacto:</strong> <a href="mailto:merkalista.app@gmail.com">merkalista.app@gmail.com</a>
   </p>
@@ -152,16 +152,16 @@
     <ul>
       <li>La app consulta las páginas y los datos de producto que usan las webs de estos supermercados: buscadores, páginas de categoría, catálogos públicos (sitemaps) y fichas de producto.</li>
       <li>Esas webs reciben lo mismo que cuando las visitas con un navegador: la petición, tu <strong>dirección IP</strong> y un identificador de la app («Merkalista»). Cuando se usa un buscador, reciben también <strong>el nombre del producto que buscas</strong>. Al pedir la ficha de un producto concreto, esa web puede deducir qué producto te interesa.</li>
-      <li><strong>Mercadona:</strong> sus precios dependen de la zona de entrega. Si has indicado tu <strong>código postal</strong> en Ajustes → Ubicación, la app lo envía a la tienda online de Mercadona para saber qué almacén te corresponde, igual que cuando lo escribes en su web, y pide después los precios de ese almacén. Sin código postal no se consultan precios de Mercadona. Puedes cambiarlo o quitarlo cuando quieras.</li>
+      <li><strong>Mercadona:</strong> sus precios dependen de la zona de entrega. Si has indicado tu <strong>código postal</strong> en Ajustes → Búsqueda de precios → Ubicación, la app lo envía a la tienda online de Mercadona para saber qué almacén te corresponde, igual que cuando lo escribes en su web, y pide después los precios de ese almacén. Sin código postal no se consultan precios de Mercadona. Puedes cambiarlo o quitarlo cuando quieras.</li>
       <li><strong>Fotos:</strong> al ver un resultado, su foto se descarga desde la web del supermercado (o desde el servicio de imágenes que esa web usa), que recibe tu dirección IP. Puedes ocultar las fotos de cada supermercado en Ajustes → Estado de cada supermercado.</li>
       <li>No se envía tu nombre, tus listas, tus tickets, tus gastos ni ningún identificador personal. A ningún supermercado salvo Mercadona se le envía tu código postal.</li>
       <li>La app consulta pocas páginas, con pausas entre peticiones y con caché. No intenta saltarse verificaciones anti-bots, CAPTCHAs ni inicios de sesión: si una web lo pide, deja de consultarla.</li>
     </ul>
-    <h3>Búsqueda guiada (Consum)</h3>
+    <h3>Búsqueda guiada (Carrefour, Dia y Consum)</h3>
     <ul>
       <li>Para estas tiendas, la app abre su <strong>buscador oficial en tu navegador</strong> con el nombre del producto. A partir de ahí navegas tú en esa web, con su propia política de privacidad y sus cookies.</li>
       <li>Tú escribes el precio y la app guarda en tu dispositivo el precio, la tienda, la fecha y el enlace.</li>
-      <li>La app no lee el catálogo ni los precios de Consum. Si tienes Open Prices activado, puede mostrar precios de la comunidad de Consum, marcados como tales (ver «Open Prices»).</li>
+      <li>La app no lee el catálogo ni los precios de Carrefour, Dia ni Consum. Si tienes Open Prices activado, puede mostrar precios de la comunidad de Consum, marcados como tales (ver «Open Prices»).</li>
     </ul>
     <p>Las webs de los supermercados son de sus propietarios y tienen sus propias políticas de privacidad, que te recomendamos consultar.</p>
   </section>
@@ -196,7 +196,7 @@
     <h3>Nombres de los productos de los tickets</h3>
     <ul>
       <li>Al importar un ticket, Merkalista propone el nombre completo de cada producto («LECHE ENT HAC» → «Leche entera Hacendado»). Lo hace en el móvil, sin conexión, con un diccionario de abreviaturas, tus productos y los nombres que ya confirmaste.</li>
-      <li>Lo que aceptas o corriges se guarda solo en el móvil (Ajustes → Nombres de tickets), donde puedes verlo, editarlo, exportarlo o borrarlo.</li>
+      <li>Lo que aceptas o corriges se guarda solo en el móvil (Ajustes → Datos → Nombres de tickets), donde puedes verlo, editarlo, exportarlo o borrarlo.</li>
       <li>Si pulsas «Buscar producto», puedes consultar Open Food Facts (world.openfoodfacts.org), a la que se envía solo el texto que escribas, u Open Prices, a la que solo se envía el nombre de la tienda. El ticket nunca sale del móvil. Más información: <a href="https://world.openfoodfacts.org/privacy">https://world.openfoodfacts.org/privacy</a>.</li>
     </ul>
     <h3>PDFium (lectura de PDF)</h3>
@@ -243,7 +243,7 @@
       </ul></li>
       <li><strong>Registro de errores:</strong> solo datos técnicos (sin búsquedas, productos, rutas ni contenido de tickets), nunca en el log del sistema, y lo puedes borrar.</li>
       <li><strong>Exportación CSV:</strong> solo se guarda donde tú eliges con el selector de Android, con protección frente a la inyección de fórmulas al abrirlo en Excel u otras hojas de cálculo.</li>
-      <li><strong>Pantalla:</strong> opción «Ocultar el contenido en apps recientes» (Ajustes → Privacidad y datos), que también impide las capturas de pantalla de la app.</li>
+      <li><strong>Pantalla:</strong> opción «Ocultar el contenido en apps recientes» (Ajustes → Privacidad), que también impide las capturas de pantalla de la app.</li>
       <li>Te recomendamos proteger tu móvil con bloqueo de pantalla.</li>
     </ul>
   </section>
@@ -252,10 +252,10 @@
     <h2>7. Cómo borrar tus datos</h2>
     <ul>
       <li><strong>Una lista, un producto, un gasto o una categoría:</strong> desde su pantalla, con la opción Eliminar.</li>
-      <li><strong>Un ticket importado:</strong> Ajustes → Tickets y precios. Puedes conservar sus precios o borrarlos también.</li>
-      <li><strong>Todos los tickets y la base de precios:</strong> Ajustes → Tickets y precios → Borrar todos los datos de tickets.</li>
-      <li><strong>Tu ubicación y tu código postal:</strong> Ajustes → Ubicación → Quitar ubicación. Desde ese momento no se consultan precios de Mercadona.</li>
-      <li><strong>Todo:</strong> Ajustes → Privacidad y datos → <strong>Borrar todos los datos</strong>, con confirmación. Borra:
+      <li><strong>Un ticket importado:</strong> Ajustes → Datos → Tickets y precios. Puedes conservar sus precios o borrarlos también.</li>
+      <li><strong>Todos los tickets y la base de precios:</strong> Ajustes → Datos → Tickets y precios → Borrar todos los datos de tickets.</li>
+      <li><strong>Tu ubicación y tu código postal:</strong> Ajustes → Búsqueda de precios → Ubicación → Quitar ubicación. Desde ese momento no se consultan precios de Mercadona.</li>
+      <li><strong>Todo:</strong> Ajustes → Privacidad → <strong>Borrar todos los datos</strong>, con confirmación. Borra:
       <ul>
         <li>listas, productos, gastos, historial y precios guardados;</li>
         <li>tickets, base de precios, vínculos, alertas, alias y correcciones;</li>
@@ -264,7 +264,7 @@
         <li>ajustes y ubicación;</li>
         <li>registro de errores, catálogos, copias internas y archivos temporales.</li>
       </ul></li>
-      <li><strong>El registro de errores:</strong> Ajustes → Privacidad y datos → Borrar el registro de errores.</li>
+      <li><strong>El registro de errores:</strong> Ajustes → Datos → Borrar el registro de errores.</li>
       <li><strong>Desinstalar la app</strong> borra todos sus datos del dispositivo.
       <ul>
         <li>También puedes borrarlos desde Ajustes de Android → Aplicaciones → Merkalista → Almacenamiento → Borrar datos.</li>
@@ -292,12 +292,12 @@
   <section>
     <h2>11. Cambios en esta política</h2>
     <p>Si una versión futura cambia cómo se tratan los datos (por ejemplo, si se añadiera sincronización en la nube), esta política se actualizará antes de publicar esa versión y la app lo indicará. La fecha de la última actualización figura al principio.</p>
-    <p><strong>Cambios del 29 de octubre de 2026 (versión 4.7.1):</strong></p>
+    <p><strong>Cambios del 10 de noviembre de 2026 (versión 4.7.1):</strong></p>
     <ul>
-      <li>Dia se retira: la app ya no la consulta ni la ofrece como tienda nueva. Sus precios, tickets y gastos antiguos se conservan.</li>
+      <li>Carrefour y Dia vuelven como búsqueda guiada: la app abre su web oficial y tú guardas el precio. Sus precios, tickets y gastos antiguos se conservan.</li>
       <li>Consum pasa a búsqueda guiada: la app ya no lee su catálogo ni sus precios.</li>
     </ul>
-    <p><strong>Cambios del 29 de octubre de 2026 (versión 4.7.0):</strong></p>
+    <p><strong>Cambios del 10 de noviembre de 2026 (versión 4.7.0):</strong></p>
     <ul>
       <li>Se retira el escáner de códigos de barras y la app deja de pedir permiso de cámara.</li>
       <li>Se añade la foto del ticket mediante el escáner de documentos de Google.</li>
@@ -327,11 +327,6 @@
   </section>
 
   <section>
-    <h2>Versión beta</h2>
-    <ul>
-      <li>Merkalista está en fase beta y en desarrollo activo. Algunas funciones pueden cambiar o no estar disponibles todavía, y los precios y la detección de productos en tickets pueden no ser exactos.</li>
-      <li>El aviso de beta solo guarda en el móvil que ya lo has visto; no se envía nada.</li>
-    </ul>
   </section>
 </main>
 
